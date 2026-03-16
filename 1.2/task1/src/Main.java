@@ -9,5 +9,7 @@ public class Main {
 
         float Celsius = (temp - 32) * 5/9;
         System.out.printf("Temperature in Celsius %.1f", Celsius);
+
+        scanner.close();
     }
 }
